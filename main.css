@@ -1,0 +1,54 @@
+body{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'helvetica';
+    font-weight: 700;
+    color: white;
+}
+
+.textContain{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headText{
+    color: white;
+    font-size: 48px;
+    margin: none;
+    height: auto;
+    text-align: center;
+    
+}
+
+#choices{
+    display: flex;
+    margin-top: 30px;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.choice{
+    text-align: center;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#choice01 a{
+    color: greenyellow;
+}
+
+#choice02 a{
+    color: red;
+}
